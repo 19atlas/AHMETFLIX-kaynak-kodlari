@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteimsi">#BDBBBB</color>
+    <color name="varımsı">#494949</color>
+    <color name="varvarımsı">#606060</color>
+    <color name="sarım">#D69D07</color>
+    <color name="sapsaro">#FFC732</color>
+    <color name="kapsarım">#674B05</color>
+    <color name="red">#D63333</color>
+    <color name="koyusarım">#c38e00</color>
+    <color name="koyusarımkoyu">#9c7200</color>
+    <color name="koyvarımsı">#333333</color>
+    <color name="blackimsi">#202020</color>
+    <color name="hintreng">#A5A5A5</color>
+    <color name="transparan">#7F000000</color>
+</resources>

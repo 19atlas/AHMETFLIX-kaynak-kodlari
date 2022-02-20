@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AHMETFLIX</string>
+    <string name="kullan_c_ad">Kullanıcı Adı</string>
+    <string name="e_mail">E-mail</string>
+    <string name="yeni_ifre">Yeni şifre</string>
+    <string name="giri_yap">Giriş yap</string>
+    <string name="hesab_m_var">Hesabım var</string>
+    <string name="hesab_m_yok">Hesabım yok</string>
+    <string name="yeni_hesap_ekle">Yeni hesap ekle</string>
+    <string name="video_aray_n">Video arayın</string>
+</resources>

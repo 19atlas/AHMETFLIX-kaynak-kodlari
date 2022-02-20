@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/menuxyz">
+
+        <ImageView
+            android:id="@+id/sulogosupriz"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/applogo"
+            android:focusable="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sınırsız içerik dünyasına hoş geldiniz👋"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/suUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextxyz"
+            android:hint="@string/kullan_c_ad"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="9dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/koyusarım"
+            android:textColorHint="@color/hintreng" />
+
+        <EditText
+            android:id="@+id/suEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextxyz"
+            android:hint="@string/e_mail"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="9dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/koyusarım"
+            android:textColorHint="@color/hintreng" />
+
+        <EditText
+            android:id="@+id/suPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextxyz"
+            android:hint="@string/yeni_ifre"
+            android:inputType="textPassword"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:minHeight="48dp"
+            android:layout_marginBottom="10dp"
+            android:padding="9dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/koyusarım"
+            android:textColorHint="@color/hintreng" />
+
+        <TextView
+            android:id="@+id/haveaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/edittextxyz"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:padding="4dp"
+            android:focusable="true"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/giri_yap"
+            android:text="@string/hesab_m_var"/>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="yeni hesap oluştur"
+            android:text="Yeni kullanıcı yarat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <Button
+                android:id="@+id/suGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/google"
+                android:padding="14dp"
+                android:text="Google"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <Button
+                android:id="@+id/suSinirli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/red"
+                android:padding="14dp"
+                android:drawableLeft="@drawable/padlock"
+                android:drawableTint="@color/white"
+                android:text="Sınırlı giriş"
+                android:textSize="16sp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sudiscordPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discord'tan mı geliyorsun?"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="7dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

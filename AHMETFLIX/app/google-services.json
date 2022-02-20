@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "364636408306",
+    "project_id": "ahmetflix-main",
+    "storage_bucket": "ahmetflix-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364636408306:android:88dafef098ed5da3bb436b",
+        "android_client_info": {
+          "package_name": "com.dtw.ahmetflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364636408306-dk1n1mvi26snbpns8p77nje3tcb52ucu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnqqghin_omMnLu5L-pAMntDTIWf45wQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364636408306-dk1n1mvi26snbpns8p77nje3tcb52ucu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/menuxyz">
+
+        <ImageView
+            android:id="@+id/ImageViewke"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/applogo"
+            android:focusable="true" />
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextxyz"
+            android:hint="@string/e_mail"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="9dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/koyusarım"
+            android:textColorHint="@color/hintreng" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextxyz"
+            android:hint="@string/yeni_ifre"
+            android:inputType="textPassword"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:minHeight="48dp"
+            android:layout_marginBottom="10dp"
+            android:padding="9dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/koyusarım"
+            android:textColorHint="@color/hintreng" />
+
+        <TextView
+            android:id="@+id/notHaveAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/edittextxyz"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:padding="4dp"
+            android:focusable="true"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/yeni_hesap_ekle"
+            android:text="@string/hesab_m_yok"/>
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:hint="yeni hesap oluştur"
+            android:textAllCaps="false"
+            android:text="Giriş Yap" />
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/google"
+            android:padding="10dp"
+            android:text="Google ile devam et"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/discordPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discord'tan mı geliyorsun?"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="7dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
