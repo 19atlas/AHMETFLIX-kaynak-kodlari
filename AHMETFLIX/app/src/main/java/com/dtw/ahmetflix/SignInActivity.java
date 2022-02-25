@@ -38,6 +38,7 @@ public class SignInActivity extends AppCompatActivity {
         btnGoogle = findViewById(R.id.btnGoogle);
         ImageViewke = findViewById(R.id.ImageViewke);
         auth = FirebaseAuth.getInstance();
+        getSupportActionBar().hide();
         progressDialog = new ProgressDialog(SignInActivity.this);
         progressDialog.setTitle("AHMETFLIX Hesap Sistemi");
         progressDialog.setMessage("Hesap bulunuyor...");

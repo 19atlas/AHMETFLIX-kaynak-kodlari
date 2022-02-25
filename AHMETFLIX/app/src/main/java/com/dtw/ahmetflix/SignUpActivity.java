@@ -51,6 +51,7 @@ public class SignUpActivity extends AppCompatActivity {
         analytics = FirebaseAnalytics.getInstance(this);
         database = FirebaseDatabase.getInstance();
         auth = FirebaseAuth.getInstance();
+        getSupportActionBar().hide();
         alertDialog = new AlertDialog.Builder(SignUpActivity.this);
         alertDialog.setTitle("AHMETFLIX Hesap Sistemi");
         alertDialog.setCancelable(false);

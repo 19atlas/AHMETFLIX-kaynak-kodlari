@@ -1,14 +1,11 @@
 package com.dtw.ahmetflix;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.Objects;
 public class MainActivity extends AppCompatActivity {
     ImageView settings;
     EditText videobulucu;
@@ -20,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         settings = findViewById(R.id.settings);
         videobulucu = findViewById(R.id.videobulucu);
+        getSupportActionBar().hide();
         settings.setOnClickListener(view -> {
             Intent git = new Intent(MainActivity.this,SettingsActivity.class);
             startActivity(git);
