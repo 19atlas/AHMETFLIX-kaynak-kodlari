@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.AHMETFLIX" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/koyusarım</item>
-        <item name="colorPrimaryVariant">@color/koyusarımkoyu</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <item name="colorSecondary">@color/koyusarım</item>
-        <item name="colorSecondaryVariant">@color/koyusarımkoyu</item>
+        <item name="colorPrimary">@color/sarım</item>
+        <item name="colorPrimaryVariant">@color/koyusarım</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/sarım</item>
+        <item name="colorSecondaryVariant">@color/koyusarım</item>
         <item name="colorOnSecondary">@color/black</item>
         <item name="android:statusBarColor" tools:targetApi="l">@color/sarım</item>
     </style>

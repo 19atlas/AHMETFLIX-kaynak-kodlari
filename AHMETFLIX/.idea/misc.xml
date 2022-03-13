@@ -3,20 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.245" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/actionbarmai.xml" value="0.1915" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/actionbarmain.xml" value="0.1915" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/edittextxyz.xml" value="0.245" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/mainarayici.xml" value="0.1915" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/mainbackgraund.xml" value="0.1915" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/menuxyz.xml" value="0.245" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/nicewallpaper.xml" value="0.245" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/back.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/deletetrash.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/edittextxyz.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/error_vector.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/mainarayici.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/mainbackgraund.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/menuxyz.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/settings_backgraund.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_settings.xml" value="0.22588235294117648" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/custom_action_bar.xml" value="0.25" />
-        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/layout_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/mipmap-anydpi-v26/ahmet_app_logo.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2015" />
       </map>
     </option>
   </component>

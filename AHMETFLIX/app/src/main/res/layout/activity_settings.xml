@@ -1,8 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SettingsActivity"
     android:background="@color/koyvarımsı">
-</LinearLayout>
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/back"
+        android:focusable="true"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/back" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backArrow"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pph"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/applogo"
+            app:civ_border_width="5dp"
+            app:civ_border_color="@color/blackimsi"/>
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="-40dp"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/plus" />
+        <ImageView
+            android:id="@+id/ppsil"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="-65dp"
+            android:layout_marginTop="-40dp"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/trashbin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_n"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/kulAdi"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:textColor="@color/white"
+                android:hint="@string/kullan_c_ad"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/whiteimsi"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/durum"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/eStatus"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/rn_ne_seversin"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/whiteimsi" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/st"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/istek"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="İstek arşiv"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/whiteimsi" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
+            android:background="@drawable/mainarayici"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="@string/kaydet"
+            android:textAllCaps="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/settings_backgraund"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="5dp"
+            android:text="@string/ah"
+            android:textColor="@color/kapsarım"
+            android:textSize="18sp"
+            app:drawableLeftCompat="@drawable/error_vector" />
+        <TextView
+            android:id="@+id/developerlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/yapan"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/otrmkapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/k_yap"
+            android:textColor="@color/blackimsi"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/hessil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/hesab"
+            android:textColor="@color/red"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

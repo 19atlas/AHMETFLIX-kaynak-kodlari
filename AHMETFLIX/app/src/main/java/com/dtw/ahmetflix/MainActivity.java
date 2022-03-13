@@ -1,14 +1,19 @@
 package com.dtw.ahmetflix;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
     ImageView settings;
     EditText videobulucu;
+    FirebaseAuth auth;
     int versionCode = BuildConfig.VERSION_CODE;
     String versionName = BuildConfig.VERSION_NAME;
     @Override
@@ -17,14 +22,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         settings = findViewById(R.id.settings);
         videobulucu = findViewById(R.id.videobulucu);
+        auth = FirebaseAuth.getInstance();
         getSupportActionBar().hide();
         settings.setOnClickListener(view -> {
-            Intent git = new Intent(MainActivity.this,SettingsActivity.class);
-            startActivity(git);
+            if (auth.getCurrentUser()!=null){
+                Intent git = new Intent(MainActivity.this,SettingsActivity.class);
+                startActivity(git);
+            }else {
+                Toast.makeText(this, "giriş hakkın yok", Toast.LENGTH_SHORT).show();
+            }
         });
         settings.setOnLongClickListener(view -> {
             Toast.makeText(MainActivity.this,versionName+" kod:"+versionCode , Toast.LENGTH_SHORT).show();
             return false;
         });
+    }
+    boolean doubleBackToExitPressedOnce = false;
+    @Override
+    public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {super.onBackPressed();return;}
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Çıkmak için tekrar basın", Toast.LENGTH_SHORT).show();
+        new Handler(Looper.getMainLooper()).postDelayed(() -> doubleBackToExitPressedOnce=false, 2000);
     }
 }

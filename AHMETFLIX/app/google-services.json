@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "364636408306",
-    "project_id": "ahmetflix-main",
-    "storage_bucket": "ahmetflix-main.appspot.com"
+    "project_number": "405401437192",
+    "firebase_url": "https://ahmetflix--main-default-rtdb.firebaseio.com",
+    "project_id": "ahmetflix--main",
+    "storage_bucket": "ahmetflix--main.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:364636408306:android:88dafef098ed5da3bb436b",
+        "mobilesdk_app_id": "1:405401437192:android:036f2a4f9472900179fdbd",
         "android_client_info": {
           "package_name": "com.dtw.ahmetflix"
         }
       },
       "oauth_client": [
         {
-          "client_id": "364636408306-dk1n1mvi26snbpns8p77nje3tcb52ucu.apps.googleusercontent.com",
+          "client_id": "405401437192-bqse5d53d4evkm3c6v42mk6hjbdg2v6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dtw.ahmetflix",
+            "certificate_hash": "820ec48ef27bbb18aff2a6c708235f38d7796c4e"
+          }
+        },
+        {
+          "client_id": "405401437192-4str1uadk38jd1ef6dm5bobadg83ul65.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBnqqghin_omMnLu5L-pAMntDTIWf45wQI"
+          "current_key": "AIzaSyCZmXeKnSxvx90xICNPp_gsRZY1cd05GGM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "364636408306-dk1n1mvi26snbpns8p77nje3tcb52ucu.apps.googleusercontent.com",
+              "client_id": "405401437192-4str1uadk38jd1ef6dm5bobadg83ul65.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

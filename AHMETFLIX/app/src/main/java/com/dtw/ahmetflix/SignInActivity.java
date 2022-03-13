@@ -1,5 +1,4 @@
 package com.dtw.ahmetflix;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -10,16 +9,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Objects;
-
 public class SignInActivity extends AppCompatActivity {
     EditText etEmail,etPassword;
     TextView notHaveAccount;
@@ -59,19 +53,17 @@ public class SignInActivity extends AppCompatActivity {
             }
             else {
                 progressDialog.show();
-                auth.signInWithEmailAndPassword(etEmail.getText().toString().trim(), etPassword.getText().toString().trim()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        progressDialog.dismiss();
-                        if (task.isSuccessful()) {
-                            Intent intent = new Intent(SignInActivity.this, MainActivity.class);
-                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                            startActivity(intent);
-                        } else {
-                            Toast.makeText(SignInActivity.this, "hata:" + Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
+                auth.signInWithEmailAndPassword(etEmail.getText().toString().trim(), etPassword.getText().toString().trim()).
+                        addOnCompleteListener(task -> {
+                            progressDialog.dismiss();
+                            if (task.isSuccessful()) {
+                                Intent intent = new Intent(SignInActivity.this, MainActivity.class);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                startActivity(intent);
+                            } else {
+                                Toast.makeText(SignInActivity.this, "hata:" + Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+                        });
             }
         });
         notHaveAccount.setOnClickListener(view -> {

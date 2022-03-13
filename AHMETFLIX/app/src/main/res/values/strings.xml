@@ -8,4 +8,14 @@
     <string name="hesab_m_yok">Hesabım yok</string>
     <string name="yeni_hesap_ekle">Yeni hesap ekle</string>
     <string name="video_aray_n">Video arayın</string>
+    <string name="back">back</string>
+    <string name="ad_n">Adın:</string>
+    <string name="durum">Durum:</string>
+    <string name="rn_ne_seversin">örn. hangi yt kanalı seversin?</string>
+    <string name="kaydet">KAYDET</string>
+    <string name="hesab">Hesabını yok et 🗑️</string>
+    <string name="yapan">Yapanlar || Arşivciler</string>
+    <string name="st">İstek :</string>
+    <string name="ah">AHMETFLIX 2022</string>
+    <string name="k_yap">Çıkış Yap</string>
 </resources>
