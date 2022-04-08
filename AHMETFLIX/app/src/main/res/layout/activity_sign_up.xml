@@ -15,14 +15,12 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:background="@drawable/menuxyz">
-
         <ImageView
             android:id="@+id/sulogosupriz"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:clickable="true"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
             android:src="@drawable/applogo"
             android:focusable="true" />
         <TextView
@@ -96,16 +94,14 @@
             android:layout_marginEnd="20dp"
             android:hint="@string/giri_yap"
             android:text="@string/hesab_m_var"/>
-
         <Button
             android:id="@+id/btnSignUp"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"
-            android:hint="yeni hesap oluştur"
-            android:text="Yeni kullanıcı yarat" />
-
+            android:hint="@string/yeni_hesap_olu"
+            android:text="@string/yeni_kullan_c_yarat" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

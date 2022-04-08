@@ -1,11 +1,11 @@
 package com.dtw.ahmetflix.model;
 public class Users {
-    String profilepic, adi, userId, rol,istek,durum;
-    public Users(String profilResmi, String adi, String userId, String rol,String istek,String durum) {
+    String profilepic, adi, userId, rutbe,istek,durum;
+    public Users(String profilResmi, String adi, String userId, String rutbe,String istek,String durum) {
         this.profilepic = profilResmi;
         this.adi = adi;
         this.userId = userId;
-        this.rol = rol;
+        this.rutbe = rutbe;
         this.istek = istek;
         this.durum = durum;
     }
@@ -39,12 +39,14 @@ public class Users {
         this.userId = userId;
     }
 
-    public String getRol() {
-        return rol;
+    public String getRutbe() {
+        return rutbe;
     }
-    public void setRol(String rol) {
-        this.rol = rol;
+
+    public void setRutbe(String rutbe) {
+        this.rutbe = rutbe;
     }
+
     public String getIstek() {
         return istek;
     }

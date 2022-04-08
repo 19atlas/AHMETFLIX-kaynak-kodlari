@@ -15,14 +15,12 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:background="@drawable/menuxyz">
-
         <ImageView
             android:id="@+id/ImageViewke"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:clickable="true"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
             android:src="@drawable/applogo"
             android:focusable="true" />
         <EditText
@@ -51,26 +49,26 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:minHeight="48dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:padding="9dp"
             android:textColor="@color/black"
             android:textColorHighlight="@color/koyusarım"
             android:textColorHint="@color/hintreng" />
-
         <TextView
             android:id="@+id/notHaveAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:background="@drawable/edittextxyz"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:clickable="true"
-            android:padding="4dp"
-            android:focusable="true"
             android:layout_marginEnd="20dp"
+            android:background="@drawable/edittextxyz"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="right"
             android:hint="@string/yeni_hesap_ekle"
-            android:text="@string/hesab_m_yok"/>
+            android:padding="3dp"
+            android:text="@string/hesab_m_yok"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
         <Button
             android:id="@+id/btnSignIn"
             android:layout_width="wrap_content"

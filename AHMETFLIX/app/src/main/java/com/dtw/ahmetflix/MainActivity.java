@@ -8,12 +8,12 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
-    ImageView settings;
-    EditText videobulucu;
+    ImageView settings,aramaDume;
     FirebaseAuth auth;
+    FirebaseAnalytics anal;
     int versionCode = BuildConfig.VERSION_CODE;
     String versionName = BuildConfig.VERSION_NAME;
     @Override
@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         settings = findViewById(R.id.settings);
-        videobulucu = findViewById(R.id.videobulucu);
+        aramaDume = findViewById(R.id.aramaDume);
+        anal= FirebaseAnalytics.getInstance(this);
         auth = FirebaseAuth.getInstance();
         getSupportActionBar().hide();
         settings.setOnClickListener(view -> {
@@ -37,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
             return false;
         });
     }
-    boolean doubleBackToExitPressedOnce = false;
+    boolean zorlayici = false;
     @Override
     public void onBackPressed() {
-        if (doubleBackToExitPressedOnce) {super.onBackPressed();return;}
-        this.doubleBackToExitPressedOnce = true;
+        if (zorlayici) {super.onBackPressed();return;}
+        this.zorlayici = true;
         Toast.makeText(this, "Çıkmak için tekrar basın", Toast.LENGTH_SHORT).show();
-        new Handler(Looper.getMainLooper()).postDelayed(() -> doubleBackToExitPressedOnce=false, 2000);
+        new Handler(Looper.getMainLooper()).postDelayed(() -> zorlayici =false, 2000);
     }
 }

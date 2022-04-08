@@ -5,7 +5,7 @@
     <string name="yeni_ifre">Yeni şifre</string>
     <string name="giri_yap">Giriş yap</string>
     <string name="hesab_m_var">Hesabım var</string>
-    <string name="hesab_m_yok">Hesabım yok</string>
+    <string name="hesab_m_yok">Yeni Hesap oluştur</string>
     <string name="yeni_hesap_ekle">Yeni hesap ekle</string>
     <string name="video_aray_n">Video arayın</string>
     <string name="back">back</string>
@@ -18,4 +18,9 @@
     <string name="st">İstek :</string>
     <string name="ah">AHMETFLIX 2022</string>
     <string name="k_yap">Çıkış Yap</string>
+    <string name="ary">Daha fazla ayar</string>
+    <string name="ppsillll">Profil fotorafı sil</string>
+    <string name="ayr">ayarlar</string>
+    <string name="yeni_hesap_olu">yeni hesap oluştur</string>
+    <string name="yeni_kullan_c_yarat">Yeni kullanıcı yarat</string>
 </resources>
