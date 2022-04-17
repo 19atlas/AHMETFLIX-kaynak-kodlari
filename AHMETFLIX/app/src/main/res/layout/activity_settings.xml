@@ -118,6 +118,7 @@
                 android:textColor="@color/white"
                 android:textColorHint="@color/whiteimsi" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -147,11 +148,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginTop="10dp"
             android:background="@drawable/buttonbackgraund"
             android:padding="5dp"
+            android:layout_marginTop="10dp"
             android:text="@string/kaydet"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/aracTakimi"

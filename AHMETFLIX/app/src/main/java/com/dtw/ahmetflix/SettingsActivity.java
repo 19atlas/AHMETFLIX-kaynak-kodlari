@@ -2,6 +2,7 @@ package com.dtw.ahmetflix;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -43,6 +44,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
         getSupportActionBar().hide();
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         pph = (ImageView) findViewById(R.id.pph);
         ppsil = (ImageView) findViewById(R.id.ppsil);
         kulAdi = findViewById(R.id.kulAdi);

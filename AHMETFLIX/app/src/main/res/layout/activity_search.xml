@@ -7,4 +7,19 @@
     tools:context=".SearchActivity"
     android:background="@color/blackimsi">
 
+    <EditText
+        android:id="@+id/searchVid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:cursorVisible="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/aramares"
+        android:drawablePadding="2dp"
+        android:drawableTint="@color/blackimsi"
+        android:background="@drawable/edittextxyz"
+        android:backgroundTint="@color/whiteimsi"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

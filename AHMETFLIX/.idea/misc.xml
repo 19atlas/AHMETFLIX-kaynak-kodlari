@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/aracdumacmak.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/aracdumkapama.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/aramares.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/back.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/buttonbackgraund.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/deletetrash.xml" value="0.2015" />
@@ -14,11 +16,17 @@
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/mainbackgraund.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/menuxyz.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/drawable/settings_backgraund.xml" value="0.2015" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/font/.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/font/amiko_semibold.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_movie_details.xml" value="0.25" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_search.xml" value="0.25" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_settings.xml" value="0.22588235294117648" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/activity_video_player.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/cat_recycler_row_items.xml" value="0.25" />
+        <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/layout/main_recycler_row_item.xml" value="0.25" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/mipmap-anydpi-v26/ahmet_app_logo.xml" value="0.2015" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/mipmap-anydpi-v26/ahmetyenilogo.xml" value="0.121" />
         <entry key="..\:/Users/ozan/AndroidStudioProjects/AHMETFLIX/app/src/main/res/mipmap-anydpi-v26/ahmetyenilogo_round.xml" value="0.2015" />
